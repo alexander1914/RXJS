@@ -57,7 +57,7 @@ export class AppComponent implements OnInit {
       
       if(nome === 'Alexander'){
         subscriber.next('Welcome ' + nome);
-        subscriber.next('Angular na Veia !');
+        subscriber.next('Angular na Veia partiu !');
         setTimeout(() => {
           subscriber.next('Resposta com delay... ' + nome)
         }, 1000)
