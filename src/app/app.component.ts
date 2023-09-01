@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
     return new Promise((resolve, reject) => {
       if(nome === 'Alexander'){
         setTimeout(() => {
-          resolve('Seja bem vindo ' + nome);
+          resolve('Seja Bem Vindo ' + nome);
         }, 1000);
       }
       else{
